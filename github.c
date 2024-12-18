@@ -223,13 +223,17 @@ int main(){
         printf("%d\n",i);
         i++;
 
+    do{ //quiz - sınavda çıkar (bununla yaptığımı if ile de yapabilirim)
+        printf("%d\n", i);
+        i++;
+
+    }while(i < 5);
+    
 
 
 
 
-
-
-
+    int numbers[5] = {1,2,3,4,5,6};
 
     return 0;
 }
@@ -372,4 +376,5 @@ void function(int number1,int number2){
 
 
 
+merhaba 
 
